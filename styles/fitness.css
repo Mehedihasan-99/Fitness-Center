@@ -23,6 +23,21 @@
     font-weight: 600;
     margin-right: 20px;
 }
+.title {
+    font-family:"Inter", sans-serif ;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    /* margin: 10px auto; */
+    margin: 0 auto 15px;
+}
+.description{
+    font-family:"Inter", sans-serif ;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+    margin: 0 auto;
+}
 
 
 
@@ -96,6 +111,9 @@ header{
 .banner-content p {
     color: rgba(255, 255, 255, 0.50);
 }
+.btn-2nd {
+    background-color: rgba(17, 17, 17, 0.50);
+}
 .banner-image {
     width: 300px;
     height: 580px;
@@ -105,3 +123,35 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* banner related style end  */
+/* main section styles  */
+main{
+    padding: 0 10%;
+}
+/* habits  section start here  */
+.habits{
+    font-family:"Inter", sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    border: #E6533C solid 2px;
+}
+.habits-content{
+    max-width: 650px;
+    margin: 0 auto 60px;
+}
+.habits-card {
+    justify-content: space-around;
+}
+.card img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 5px auto;
+}
+/* habits section end here  */
