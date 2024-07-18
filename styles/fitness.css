@@ -1,0 +1,107 @@
+
+*
+
+
+/* shared style  */
+.display-flex{
+    display: flex;
+}
+.text-primary{
+    color: #E6533C;
+}
+.font-01 {
+    font-family: "Inter", sans-serif;
+}
+.btn-primary {
+    background-color: #E6533C;
+    border-radius: 40px;
+    border: none;
+    padding: 16px 40px;
+    color: #fff;
+    font-family: "Inter", sans-serif ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+
+
+
+body {
+    background-color: rgba(17, 17, 17, 1.00);
+}
+
+
+/* Header style  */
+header{
+    /* margin: 0 10%; */
+    margin-top: 50px;
+    padding: 0 10%;
+    background-color: rgb(39, 32, 32);
+}
+
+/* navbar related style start */
+.navbar{
+    justify-content: space-between;
+}
+
+.nav-links{
+    border:1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+.nav-item {
+    list-style: none;
+    padding: 5px 20px 5px 3px;
+}
+.nav-link {
+    text-decoration: none; 
+    font-size: 1.1rem;
+    color: #fff;
+}
+.brand-name {
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: italic;
+    margin: 10px 0;
+}
+.btn-home {
+    background-color: #E6533C;
+    border-radius: 45px;
+    padding: 3px 10px;
+}
+/* navbar related style end  */
+
+/* banner related style  */
+.banner {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.banner-content {
+    max-width: 550px;
+    height: 450px;
+    color: white;
+}
+.banner-content h1 {
+    font-family:  "Inter", sans-serif  ;
+    font-size: 4.9rem ;
+    font-weight: 800 ;
+    margin: 10px 0;
+    color: #fff;
+}
+.banner-content p {
+    color: rgba(255, 255, 255, 0.50);
+}
+.banner-image {
+    width: 300px;
+    height: 580px;
+    margin-right: 24px ;
+    background-image: url(../images/Images\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
