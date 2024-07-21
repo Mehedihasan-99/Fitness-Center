@@ -1,17 +1,76 @@
 @media screen and (max-width:576px) {
-    header{
-        padding: 0;
-    }
-    .navbar,
-    .nav-links,
-    .banner{
-        flex-direction: column;
+    header,
+    main{
+        padding: 5px;
     }
     .nav-links{
-        border: 1px solid ;
+        display: none;
     }
-    .btn-primary{
+    .hamburg{
+        display: block;
+        margin: 8%;
+    }
+    .banner,
+    .habits-card,
+    .run-container,
+    .bmi-container,
+    .footer-container-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-primary,
+    .bmi-chart {
         margin-bottom: 20px;
     }
-    
+    footer
+    .habits,
+    .run,
+    .teams,
+    .teams-container,
+    .footer-container {
+        margin-top: 5px;
+        padding: 0 15px;
+    }
+    .run-content {
+        margin: 30px;
+        margin-bottom: 0;
+    }
+    .run-content button {
+        padding:8px 60px ;
+    }
+    .run-image {
+        max-width: 450px;
+        width: 80%;
+    }
+    .title {
+        font-size: 2.2rem;
+    }
+    .run-content button {
+        padding: 5px 80px;
+        margin-top: 30px;
+    }
+    .bmi-heading,
+    .content1,
+    .content2,
+    .content3 {
+        margin: 10px;
+        max-width: 90%;
+    }
+    .bmi-container{
+        padding: 20px 10px;
+    }
+    .bmi-chart,
+    .bmi-calculate,
+    .teams-heading,
+    .content2,
+    .content3 {
+        width: 100%;
+    }
+    .teams-heading {
+        margin: 0 auto;
+    }
+    .teams-container {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
