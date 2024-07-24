@@ -53,7 +53,7 @@ header{
     /* margin: 0 10%; */
     /* margin-top: 50px; */
     padding: 0 10%;
-    background-color: rgb(39, 32, 32);
+    background-color: rgba(17, 17, 17, 1.00);
 }
 
 /* navbar related style start */
@@ -98,15 +98,14 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    background-image: linear-gradient(45deg, rgb(122, 107, 118), transparent);
     background-image: -o-linear-gradient();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .banner-content {
-    max-width: 550px;
-    height: 450px;
+    width: 55%;
+    height: 70%;
     color: white;
 }
 .banner-content h1 {
@@ -123,13 +122,48 @@ header{
     background-color: rgba(17, 17, 17, 0.50);
 }
 .banner-image {
-    width: 300px;
+    text-align: center;
+    width: 35%;
     height: 580px;
     margin-right: 24px ;
     background-image: url(../images/Images\ 2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.box1{
+    background-color:rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    width: 100%;
+    height: 15%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    transform: translateX(-50px) translateY(400px);
+}
+.box2{
+    background-color:rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    width: 90%;
+    height: 15%;
+    transform: translateX(100px) translateY(80px);
+}
+.box1-round{
+    background-color: #E6533C;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.banner-image h3{
+    font-family:"Inter", sans-serif ;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 auto ;
 }
 
 
@@ -144,7 +178,7 @@ header{
     padding: 0 10%;
 }
 .habits-content{
-    max-width: 650px;
+    width: 60%;
     margin: 0 auto 60px;
 }
 .habits-card {
@@ -174,7 +208,7 @@ header{
     justify-content: space-between;
 }
 .run-content{
-    max-width: 450px ;
+    max-width: 45%;
     margin: 35px;
 }
 .run-content button {
