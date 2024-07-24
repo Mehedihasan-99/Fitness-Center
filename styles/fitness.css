@@ -84,7 +84,7 @@ header{
     margin: 10px 0;
 }
 .hamburg {
-    display: block;
+    display: none;
 }
 .btn-home {
     background-color: #E6533C;
@@ -98,6 +98,11 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    background-image: linear-gradient(45deg, rgb(122, 107, 118), transparent);
+    background-image: -o-linear-gradient();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner-content {
     max-width: 550px;
@@ -170,7 +175,7 @@ header{
 }
 .run-content{
     max-width: 450px ;
-    margin: 40px 55px;
+    margin: 35px;
 }
 .run-content button {
     padding: 5px 60px;
@@ -192,7 +197,8 @@ header{
     max-width: 50%;
 }
 table , th{
-    border: #E6533C 1px solid;
+    border:  1px solid rgba(255, 255, 255, 0.50);
+    padding: 10px;
 }
 .bmi-container {
     margin-top: 50px;
@@ -214,14 +220,13 @@ table , th{
 /* our teams section start  */
 .teams {
     padding: 0 10%;
+    margin-top: 50px;
 }
 .teams-heading {
     width: 50%;
     margin: 0 auto;
+    text-align: center;
     color: #fff;
-}
-.teams-heading p {
-    color: rgb(246, 19, 19);
 }
 .teams-container {
     background-color: #282929;
@@ -254,7 +259,7 @@ footer{
 }
 .footer-container-text{
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 30px;
     margin-top: 50px;
 }
@@ -267,6 +272,14 @@ ul {
     font-weight: 600;
     color: #ffffff;
     margin: 0 auto 15px;
+}
+.brand-name-footer {
+    font-family:"Inter", sans-serif ;
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    margin: 10px 0;
+    align-items: start;
 }
 .content1 {
     /* border: 2px solid yellow; */
@@ -296,6 +309,7 @@ hr {
     font-size: 1.1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.50);
+    margin-left: 0;
 }
 .footer-bottom {
     text-align: center;
