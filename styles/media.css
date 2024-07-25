@@ -48,10 +48,10 @@
     .box2{
         transform: translateX(40px) translateY(80px);
     }
-    
+    .card,
     .btn-primary,
     .bmi-chart {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     footer
     .habits,
