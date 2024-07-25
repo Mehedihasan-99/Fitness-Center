@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="styles/fitness.css">
     <link rel="stylesheet" href="styles/media.css">
@@ -23,14 +24,14 @@
                 <li class="nav-item"><a href="" class="nav-link">About</a></li>
             </ul>
             <div class="hamburg">
-                <button class="btn-home">Hi</button>
+                <i class="fa-solid fa-bars fa-lg" ></i>
             </div>
         </nav>
         <div class="banner display-flex font-01">
             <div class="banner-content">
-                <h1>Get body in <span id="miami">shape</span> & stay healthy</h1>
+                <h1>Get body in <span class="font-02">shape</span> & stay healthy</h1>
                 <p>A huge selection of health and fitness content, healthy recipes and help transformation stories to help you get fit and stay fit!</p>
-                <div >
+                <div class="banner-btn" >
                     <button class="btn-primary">Join Club Now!   </button>               
                     <button class="btn-primary btn-2nd">Download App     </button>
                 </div>
@@ -104,44 +105,49 @@
             </div>
             <div class="bmi-container display-flex">
                 <div class="bmi-chart">
-                    <h4>BMI Calculator Chart</h4>
+                    <h3 class="bmi-title">BMI Calculator Chart</h3>
                     <table>
                         <tr>
                             <th>BMI</th>
                             <th>Weight Status</th>
                         </tr>
                         <tr>
-                            <th>Below 18.5</th>
-                            <th>Underweight</th>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
                         </tr>
                         <tr>
-                            <th>18.5-24.9</th>
-                            <th>healthy</th>
+                            <td>18.5-24.9</td>
+                            <td>healthy</td>
                         </tr>
                         <tr>
-                            <th>25.0-29.9</th>
-                            <th>Overweight</th>
+                            <td>25.0-29.9</td>
+                            <td>Overweight</td>
                         </tr>
                         <tr>
-                            <th>30.0-and Above</th>
-                            <th>Obese</th>
+                            <td>30.0-and Above</td>
+                            <td>Obese</td>
                         </tr>
                     </table>
                 </div>
                 <div class="bmi-calculate">
-                    <h4 class="bmi-calculate-title">Calculate your BMI</h4>
-                    <p class="bmi-calculate-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <h3 class="bmi-title">Calculate your BMI</h3>
+                    <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                     <div class="bmi-calculate-input">
                         <input type="number" name="" id="" placeholder="Height/cm">
                         <input type="number" name="" id="" placeholder="Weight/kg">
                         <input type="number" name="" id="" placeholder="Age">
-                        <select name="gender" id="" placeholder="sex">
+                        <select name="gender" id="gender" placeholder="sex">
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                             <option value="Other">Other</option>
                         </select>
+                        <select name="activity" id="activity">
+                            <option value="morning walk">Morning walk</option>
+                            <option value="Jogging">Jogging</option>
+                            <option value="No Work">No Work</option>
+                        </select>
                     </div>
-                    <button class="btn-primary">Calculate</button>
+                    <button class="btn-primary bmi-btn">Calculate</button>
                 </div>
             </div>
           </section>
@@ -155,33 +161,45 @@
             <div class="teams-container">
                 <div class="trainer">
                     <img src="./images/trainer1.png" alt="">
-                    <!-- <h2>Jerome Bell</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2>Jerome Bell</h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
                 <div class="trainer">
                     <img src="./images/trainer2.png" alt="">
-                    <!-- <h2>Cameron Williamson</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2>Cameron Williamson </h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
                 <div class="trainer">
                     <img src="./images/trainer3.png" alt="">
-                    <!-- <h2>Darrell Steward</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2 >Darrell Steward</h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
                 <div class="trainer">
                     <img src="./images/trainer4.png" alt="">
-                    <!-- <h2>Dianne Russell</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2>Dianne Russell</h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
                 <div class="trainer">
                     <img src="./images/trainer5.png" alt="">
-                    <!-- <h2>Cody Fisher</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2>Cody Fisher</h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
                 <div class="trainer">
                     <img src="./images/trainer6.png" alt="">
-                    <!-- <h2>Theresa Webb</h2> -->
-                    <!-- <p>Trainer</p> -->
+                    <div class="trainer-name">
+                        <h2>Theresa Webb</h2>
+                        <p class="description">Trainer</p>
+                    </div>
                 </div>
             </div>
            </section>

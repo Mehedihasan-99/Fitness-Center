@@ -6,9 +6,25 @@
     .nav-links{
         display: none;
     }
+    .navbar {
+        align-items: center;
+    }
     .hamburg{
+        width: 50px;
+        height: 50px;
         display: block;
         margin: 8%;
+        text-align: center;
+        justify-items: center;
+    }
+    .hamburg i {
+        margin-top: 20px;
+        transform: scale(2);
+        color:#ffffff;
+    }
+    .banner-btn{
+        display: grid;
+        grid-template-columns: repeat(2 ,2fr);
     }
     .banner,
     .habits-card,
@@ -16,9 +32,23 @@
     .bmi-container,
     .footer-container-text {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+    .banner-image {
+        margin-left: 20px;
+        width: 90%;
+    }
+    .box1{
+        transform: translateX(-10px) translateY(400px);
+    }
+    .box2{
+        transform: translateX(40px) translateY(80px);
+    }
+    
     .btn-primary,
     .bmi-chart {
         margin-bottom: 20px;
@@ -50,6 +80,9 @@
         padding: 5px 80px;
         margin-top: 30px;
     }
+    .banner-content{
+        margin: 10px;
+    }
     .bmi-heading,
     .content1,
     .content2,
@@ -60,12 +93,13 @@
     .bmi-container{
         padding: 20px 10px;
     }
+    .banner-content,
     .bmi-chart,
     .bmi-calculate,
     .teams-heading,
     .content2,
     .content3 {
-        width: 100%;
+        width: 90%;
     }
     .teams-heading {
         margin: 0 auto;

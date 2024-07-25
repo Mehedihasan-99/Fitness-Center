@@ -1,5 +1,6 @@
 
-*
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
 /* shared style  */
@@ -11,6 +12,10 @@
 }
 .font-01 {
     font-family: "Inter", sans-serif;
+}
+.font-02{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
 }
 .btn-primary {
     background-color: #E6533C;
@@ -50,10 +55,9 @@ body {
 
 /* Header style  */
 header{
-    /* margin: 0 10%; */
-    /* margin-top: 50px; */
+    margin-top: 50px;
     padding: 0 10%;
-    background-color: rgba(17, 17, 17, 1.00);
+    background-image: linear-gradient(rgba(21, 21, 21, 0.95), rgba(57, 57, 57, 0.59) , rgba(119, 119, 119, 0.00));
 }
 
 /* navbar related style start */
@@ -67,6 +71,7 @@ header{
     justify-content: center;
     align-items: center;
     padding-left: 0;
+    margin: 50px 0;
 }
 .nav-item {
     list-style: none;
@@ -81,7 +86,7 @@ header{
     font-size: 2.2rem;
     font-weight: 800;
     font-style: italic;
-    margin: 10px 0;
+    margin: 50px 0;
 }
 .hamburg {
     display: none;
@@ -98,10 +103,10 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    background-image: -o-linear-gradient();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image:  */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
 .banner-content {
     width: 55%;
@@ -223,34 +228,70 @@ header{
 
 
 /* BMI calculation style start  */
-.bmi {
-    color:#E6533C;
+.bmi-title , th{
+    color: #ffffff;
 }
 .bmi-heading {
     margin: 0 auto;
     max-width: 50%;
 }
-table , th{
+table , th , td{
     border:  1px solid rgba(255, 255, 255, 0.50);
     padding: 10px;
+    border-collapse: collapse;
 }
+td{
+    color: rgba(255, 255, 255, 0.50);
+}
+
 .bmi-container {
     margin-top: 50px;
-    padding: 0 10%;
+    padding: 50px 10%;
     justify-content: space-between;
     background-color: #282929;
 }
 .bmi-chart {
     width: 35%;
-    border: 2px solid blue;
 }
 .bmi-calculate {
     width: 55%;
-    border: 2px solid blue;
 }
-.bmi-calculate input {
+input {
+    width: 42%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.50);
+    background-color:rgba(255, 255, 255, 0.10) ;
+}
+#gender{
     width: 45%;
+    height: 60%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.10);
+    
 }
+#activity{
+    width: 93%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.bmi-btn{
+    margin-top: 20px;
+    padding: 10px 60px;
+}  
+
+
+
 /* our teams section start  */
 .teams {
     padding: 0 10%;
@@ -269,17 +310,22 @@ table , th{
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    justify-content: space-around
-    /* align-items: center; */
+    justify-content: space-around;
 }
 .trainer {
     padding: 10px;
-    /* border-radius: 16px;  */
 }
 .trainer img {
     width: 100%;
     height: 100%;
     border-radius: 16px;
+}
+.trainer-name {
+    transform: scale(0.8) translateY(-200%);
+}
+.trainer-name h2{
+    margin: 5px 0;
+    color: #fff;
 }
 /* main section end now  */
 
@@ -293,7 +339,6 @@ footer{
 }
 .footer-container-text{
     justify-content: space-between;
-    /* align-items: center; */
     margin-bottom: 30px;
     margin-top: 50px;
 }
@@ -316,17 +361,14 @@ ul {
     align-items: start;
 }
 .content1 {
-    /* border: 2px solid yellow; */
     max-width: 40%;
     margin-top: 20px;
 }
 .content2 {
-    /* border: 2px solid yellow; */
     max-width: 25%;
     margin-top: 20px;
 }
 .content3 {
-    /* border: 2px solid yellow; */
     max-width: 25%;
     margin-top: 20px;
 }
@@ -351,5 +393,4 @@ hr {
     color: rgba(255, 255, 255, 0.50);
     padding: 30px;
     margin: 0 auto;
-    /* justify-items: center; */
 }
